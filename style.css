@@ -1,0 +1,133 @@
+body {
+    background-color: #f3eae3;
+    
+
+}
+.container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    width: 250px;
+    height: 395px;
+    border-bottom-left-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.text {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+    
+}
+p {
+    max-width: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+h1 {
+    max-width: 180px;
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+    line-height: 27px;
+    margin-top: -10px;
+}
+.pefume {
+    text-transform: capitalize;
+}
+.prices {
+    align-content: center;
+    
+}
+.current-price {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    color: #408169;
+   
+}
+.former-price {
+    font-size: 13px;
+    position: relative;
+    top: -3px;
+    left: 9px;
+}
+
+.shop {
+
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 10px;
+}
+
+.add {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    background: #3d8168;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .add:hover {
+    background: #4d9e7f;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 800px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1000px;
+      
+    
+    }
+    .text {
+        width: 365px;
+        border-radius: 13px;
+    }
+    h1 {
+        max-width: 280px;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    line-height: 32px;
+    }
+    p {
+        max-width: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+  
+    .product {
+      content: url(images/image-product-mobile.jpg);
+      width: 400px;
+    height: 395px;
+    border-radius: 13px;
+    }
+  }
+  .attribution {
+    background-color: #447965a2;
+    padding: 20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
